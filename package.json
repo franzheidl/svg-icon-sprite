@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/franzheidl/svg-icon-sprite/issues"
   },
-  "homepage": "https://github.com/franzheidl/svg-icon-sprite#readme"
+  "homepage": "https://github.com/franzheidl/svg-icon-sprite#readme",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }
