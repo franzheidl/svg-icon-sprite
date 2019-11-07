@@ -37,19 +37,34 @@
         </symbol>
       </svg>
   </span>
+
+
+
   <h1>SVG Icon Sprite</h1>
   <p>This page contains a hidden icon sprite. Each icon in the sprite is a <code>symbol</code> element with an <code>id</code>.</p>
   <p>To use an icon, place an <code>svg</code> element with <code>class="icon"</code> containing a <code>&lt;use xlink:href=&quot;#icon-id&quot; /&gt;</code>, referencing the id of the icon in the sprite.</p>
   <section>
-    <h2>Plain/Default</h2>
+    <h2>Plain/Default from inline sprite</h2>
     <svg class="icon">
       <use xlink:href="#icon-edit" />
     </svg>
   </section>
   <section class="paint-it-red">
-    <h2>Color by context</h2>
+    <h2>Color by context from inline sprite</h2>
     <svg class="icon">
       <use xlink:href="#icon-stop" />
+      </svg>
+  </section>
+  <section>
+    <h2>Plain/Default from external sprite</h2>
+    <svg class="icon">
+      <use xlink:href="icons.svg#icon-trash" />
+    </svg>
+  </section>
+  <section class="paint-it-red">
+    <h2>Color by context from external sprite</h2>
+    <svg class="icon">
+      <use xlink:href="icons.svg#icon-calendar" />
       </svg>
   </section>
 </body>
